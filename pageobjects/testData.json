@@ -1,0 +1,14 @@
+[
+    {
+        "username": "Hi",
+        "password": " "
+    },
+    {
+        "username": " ",
+        "password": "&^()"
+    },
+    {
+        "username": "admin@yourstore.com",
+        "password": "pwd"
+    }
+]

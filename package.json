@@ -1,0 +1,30 @@
+{
+  "name": "javascript-mocha-chai-webui-tests",
+  "version": "1.0.0",
+  "description": "Mocha Chai Selenium UI tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^88.0.0",
+    "geckodriver": "^1.21.1",
+    "mocha": "^8.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "test": "^0.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-regenerator": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "mochawesome": "^6.2.1"
+  }
+}

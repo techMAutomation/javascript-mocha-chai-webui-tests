@@ -1,0 +1,214 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-30T21:54:05.523Z",
+    "end": "2021-01-30T21:54:28.650Z",
+    "duration": 23127,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7054f564-d690-4ffa-a3b6-5bb24e852926",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "384f08b4-1802-4c22-b7d5-54404ebb3f55",
+          "title": "*** UI Tests *** ",
+          "fullFile": "/Users/pavaninandipati/GitHubProjects/javascript-mocha-chai-webui-tests/test/Test.spec.js",
+          "file": "/test/Test.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"*** UI Tests *** \"",
+              "fullTitle": "*** UI Tests ***  \"before each\" hook in \"*** UI Tests *** \"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "2fea10eb-3158-4bb0-b0ff-a19d1f888bc6",
+              "parentUUID": "384f08b4-1802-4c22-b7d5-54404ebb3f55",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Invalid Login Test - Email : Hi ; Password :  ",
+              "fullTitle": "*** UI Tests ***  Invalid Login Test - Email : Hi ; Password :  ",
+              "timedOut": false,
+              "duration": 2586,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "1a69254c-de0a-448d-98c7-633ea8d664b6",
+              "parentUUID": "384f08b4-1802-4c22-b7d5-54404ebb3f55",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Invalid Login Test - Email :   ; Password : &^()",
+              "fullTitle": "*** UI Tests ***  Invalid Login Test - Email :   ; Password : &^()",
+              "timedOut": false,
+              "duration": 1274,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "09231e61-0a03-4d8f-a00a-947ffb23bb7d",
+              "parentUUID": "384f08b4-1802-4c22-b7d5-54404ebb3f55",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Invalid Login Test - Email : admin@yourstore.com ; Password : pwd",
+              "fullTitle": "*** UI Tests ***  Invalid Login Test - Email : admin@yourstore.com ; Password : pwd",
+              "timedOut": false,
+              "duration": 2405,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "19f67f47-b88c-47a0-828a-2bdb5e076903",
+              "parentUUID": "384f08b4-1802-4c22-b7d5-54404ebb3f55",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify for Invalid/Valid Search item under Category menu after logged-in",
+              "fullTitle": "*** UI Tests ***  Verify for Invalid/Valid Search item under Category menu after logged-in",
+              "timedOut": false,
+              "duration": 8368,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "c5e92e02-4c5b-48e5-8b1f-2a612bbb146e",
+              "parentUUID": "384f08b4-1802-4c22-b7d5-54404ebb3f55",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test that logged-in User is able to create a new Manufacturer",
+              "fullTitle": "*** UI Tests ***  Test that logged-in User is able to create a new Manufacturer",
+              "timedOut": false,
+              "duration": 8431,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "7a2907db-110f-4816-b3df-eb9b35db726f",
+              "parentUUID": "384f08b4-1802-4c22-b7d5-54404ebb3f55",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Close Browser",
+              "fullTitle": "*** UI Tests ***  Close Browser",
+              "timedOut": false,
+              "duration": 54,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n    args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "d9fc9b39-b287-4bb7-a822-076945b79a67",
+              "parentUUID": "384f08b4-1802-4c22-b7d5-54404ebb3f55",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1a69254c-de0a-448d-98c7-633ea8d664b6",
+            "09231e61-0a03-4d8f-a00a-947ffb23bb7d",
+            "19f67f47-b88c-47a0-828a-2bdb5e076903",
+            "c5e92e02-4c5b-48e5-8b1f-2a612bbb146e",
+            "7a2907db-110f-4816-b3df-eb9b35db726f",
+            "d9fc9b39-b287-4bb7-a822-076945b79a67"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 23118,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 50000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
