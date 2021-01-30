@@ -30,7 +30,7 @@
    
 4. In VS Code editor - open Terminal and run the command to install project existing dependencies: `npm install`
 
-5. In case, `npm install' fails to install required dependencies then run the below command:
+5. In case, `npm install` fails to install required dependencies then run the below command:
     `npm install --save-dev @babel/core @babel/node @babel/register @babel/preset-env @babel/plugin-proposal-class-properties @babel/plugin-transform-regenerator @babel/plugin-transform-runtime selenium-webdriver mocha chai chromedriver geckodriver mochawesome`
 
 6. If Step 4 works fine, ignore Step 5
@@ -54,6 +54,3 @@ HTML link: `[mochawesome] Report HTML saved to /Users/xxxx/xxxx/xxxx/javascript-
 
 ## NOTE: 
 In this project, under 'screenshots' folder, attached the tests passed report
-
-# Simply to Run the tests: 
-`npm test`
